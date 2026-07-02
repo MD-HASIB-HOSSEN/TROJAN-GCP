@@ -9,7 +9,7 @@ from urllib.parse import urlparse, parse_qs
 DB_FILE = "/tmp/trojan_users.db"
 HTTP_PORT = 8081
 TARGET_IP = os.environ.get('IP', '127.0.0.1')
-OWNER_KEY = "prvtspyyy404"
+OWNER_KEY = "hasib404"
 START_TIME = time.time()
 
 def init_db():
