@@ -16,7 +16,7 @@
         "network": "ws",
         "security": "none",
         "wsSettings": {
-          "path": "/Telegram/Channel/@HASIB_FREE_INTERNET"
+          "path": "/Telegram/@HasibBdTunnel/@bouchor"
         }
       },
       "sniffing": {
