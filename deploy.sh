@@ -99,8 +99,8 @@ SERVICE_URL=$(gcloud run services describe "$SERVICE_NAME" \
 HOST=$(echo "$SERVICE_URL" | sed 's|https://||')
 
 PASSWORD="HASIBHOSSEN"
-WS_PATH="/Telegram/Channel/@HASIB_FREE_INTERNET"
-ENCODED_PATH="Telegram%2FChannel%2F%40HASIB_FREE_INTERNET"
+WS_PATH="/Telegram/@HasibBdTunnel/@bouchor"
+ENCODED_PATH="%2FTelegram%2F%40HasibBdTunnel%2F%40bouchor"
 SNI="firebase-settings.crashlytics.com"
 
 TROJAN_LINK="trojan://${PASSWORD}@${HOST}:443?security=tls&type=ws&path=${ENCODED_PATH}&host=${HOST}&sni=${SNI}#${SERVICE_NAME}"
